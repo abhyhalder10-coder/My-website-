@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <meta name="google-site-verification" content="trjufNVag1S8lqP5aMQKT1nF4bWtQRS03-RAIk8R0vU" />
+
   <title>My Browser</title>
+
   <style>
     body {
       font-family: Arial;
@@ -44,6 +48,7 @@
       border-radius: 10px;
     }
   </style>
+
 </head>
 
 <body>
@@ -51,6 +56,7 @@
   <h1>🌐 My Browser</h1>
 
   <input id="searchBox" type="text" placeholder="Search the web...">
+
   <br>
 
   <button onclick="search()">🔍 Search</button>
@@ -66,9 +72,11 @@
       }
 
       document.getElementById("results").innerHTML =
-        "<div class='result'><h3>Search</h3>" +
+        "<div class='result'>" +
+        "<h3>Search</h3>" +
         "<p>You searched for: <b>" + query + "</b></p>" +
-        "<p>Real Internet search will be connected next.</p></div>";
+        "<p>Real Internet search will be connected next.</p>" +
+        "</div>";
     }
   </script>
 
